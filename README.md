@@ -1,7 +1,11 @@
-WordPress template hierarchy mini resource
-==========================================
+WordPress template hierarchy mini resource Japanese edition
+===========================================================
 
-##Located at: http://wphierarchy.com
+##Located at: http://unofficialtokyo.com/wordpress-template-hierarchy/
+
+##Original edition
+
+###Located at: http://wphierarchy.com
 
 ###Credit and Contributions:
 
@@ -13,7 +17,9 @@ WordPress template hierarchy mini resource
 
 ##Japanese edition
 
-- Akira Tachibana
+###Credit and Contributions:
+
+- Akira Tachibana (localization)
 
 ###GitHub
 
