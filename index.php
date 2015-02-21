@@ -1,7 +1,7 @@
 <?php
 ?>
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="ja" class="no-js">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
@@ -21,7 +21,7 @@
 		<div class="container">	
 			<!-- wphierarchy top bar -->
 			<div class="wphierarchy-top clearfix">
-				<a class="wphierarchy-icon" href="http://codex.wordpress.org/Template_Hierarchy"><span class="hierarchy-name icon-wordpress">More on the WordPress Template Hierarchy at the official WordPress Codex</span></a>
+				<a class="wphierarchy-icon" href="http://wpdocs.sourceforge.jp/%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E9%9A%8E%E5%B1%A4"><span class="hierarchy-name icon-wordpress">WordPressテンプレート階層 詳細(WordPress Codex)</span></a>
 				<span class="right"><a class="wphierarchy-icon" href="https://github.com/ramiabraham/wphierarchy"><span class="hierarchy-name icon-github">Fork / Report an Issue</span></a></span>
 			</div>
 			<header>
@@ -29,7 +29,7 @@
 				<hr />
 					<div class="wph-header">
 					  <h1>WordPress Template Hierarchy</h1>
-					  <h2>A Mini Resource</h2>
+					  <h2>A Mini Resource - Japanese edition</h2>
 	  				</div>
 	  					<div class="clearfix"></div>
 				<hr />
@@ -94,7 +94,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-archive"></i>
 								</span>
-								<span class="hierarchy-name">Archive Page</span>
+								<span class="hierarchy-name">アーカイブ ページ</span>
 							</a>
 						</li>
 						
@@ -104,7 +104,7 @@
 								<span class="icon"> 
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
-								<span class="hierarchy-name">Singular Page</span>
+								<span class="hierarchy-name">個別ページ</span>
 							</a>
 						</li>
 						
@@ -113,7 +113,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-home"></i>
 								</span>
-								<span class="hierarchy-name">Site Front Page</span>
+								<span class="hierarchy-name">サイトフロント ページ</span>
 							</a>
 						</li>
 						
@@ -122,7 +122,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-blog"></i>
 								</span>
-								<span class="hierarchy-name">Blog Posts Index Page</span>
+								<span class="hierarchy-name"><small>ブログ投稿インデックスページ</small></span>
 							</a>
 						</li>
 						
@@ -131,7 +131,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-comments"></i>
 								</span>
-								<span class="hierarchy-name">Comments Popup Page</span>
+								<span class="hierarchy-name">コメントポップアップページ</span>
 							</a>
 						</li>
 						
@@ -140,7 +140,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-404"></i>
 								</span>
-								<span class="hierarchy-name">Error 404 Page</span>
+								<span class="hierarchy-name">404エラー ページ</span>
 							</a>
 						</li>
 						
@@ -149,7 +149,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-search"></i>
 								</span>
-								<span class="hierarchy-name">Search Result Page</span>
+								<span class="hierarchy-name">検索結果 ページ</span>
 							</a>
 						</li>
 						
@@ -166,7 +166,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
-								<span class="hierarchy-name">Single Post Page</span>
+								<span class="hierarchy-name">個別投稿ページ</span>
 							</a>
 						</li>
 						
@@ -175,7 +175,7 @@
 								<span class="icon"> 
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
-								<span class="hierarchy-name">Static Page</span>
+								<span class="hierarchy-name">固定ページ</span>
 							</a>
 						</li>
 						
@@ -200,7 +200,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-author"></i>
 								</span>
-								<span class="hierarchy-name">Author Archive</span>
+								<span class="hierarchy-name">作成者別<br />アーカイブ</span>
 							</a>
 						</li>
 						
@@ -209,7 +209,7 @@
 								<span class="icon"> 
 									<i aria-hidden="true" class="icon-category"></i>
 								</span>
-								<span class="hierarchy-name">Category Archive</span>
+								<span class="hierarchy-name">カテゴリー<br />アーカイブ</span>
 							</a>
 						</li>
 						
@@ -218,7 +218,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-category"></i>
 								</span>
-								<span class="hierarchy-name">Custom Post Type Archive</span>
+								<span class="hierarchy-name">カスタム投稿タイプ<br />アーカイブ</span>
 							</a>
 						</li>
 						
@@ -227,7 +227,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-category"></i>
 								</span>
-								<span class="hierarchy-name">Custom Taxonomy Archive</span>
+								<span class="hierarchy-name">カスタムタクソノミーアーカイブ</span>
 							</a>
 						</li>
 						
@@ -236,7 +236,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-date"></i>
 								</span>
-								<span class="hierarchy-name">Date Archive</span>
+								<span class="hierarchy-name">日付別アーカイブ</span>
 							</a>
 						</li>
 						
@@ -245,7 +245,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-tag"></i>
 								</span>
-								<span class="hierarchy-name">Tag Archive</span>
+								<span class="hierarchy-name">タグアーカイブ</span>
 							</a>
 						</li>
 						
@@ -254,7 +254,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-attachment"></i>
 								</span>
-								<span class="hierarchy-name">Attachment Post</span>
+								<span class="hierarchy-name">添付ファイル投稿</span>
 							</a>
 						</li>
 						
@@ -263,7 +263,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-post"></i>
 								</span>
-								<span class="hierarchy-name">Custom Post</span>
+								<span class="hierarchy-name">カスタム投稿</span>
 							</a>
 						</li>
 						
@@ -272,7 +272,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-post"></i>
 								</span>
-								<span class="hierarchy-name">Blog Post</span>
+								<span class="hierarchy-name">ブログ投稿</span>
 							</a>
 						</li>
 						
@@ -281,7 +281,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
-								<span class="hierarchy-name">Page Template</span>
+								<span class="hierarchy-name">ページテンプレート</span>
 							</a>
 						</li>
 						
@@ -290,7 +290,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-home"></i>
 								</span>
-								<span class="hierarchy-name">Page Shown On Front</span>
+								<span class="hierarchy-name">ページを表示</span>
 							</a>
 						</li>
 						
@@ -299,7 +299,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-home"></i>
 								</span>
-								<span class="hierarchy-name">Posts Shown On Front</span>
+								<span class="hierarchy-name">投稿を<br />表示</span>
 							</a>
 						</li>
 						
@@ -343,7 +343,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-date"></i>
 								</span>
-								<span class="hierarchy-name">Year <br />Archive</span>
+								<span class="hierarchy-name">年別<br />アーカイブ</span>
 							</a>
 						</li>
 						
@@ -352,7 +352,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-month"></i>
 								</span>
-								<span class="hierarchy-name">Month Archive</span>
+								<span class="hierarchy-name">月別<br />アーカイブ</span>
 							</a>
 						</li>
 						
@@ -361,7 +361,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-day"></i>
 								</span>
-								<span class="hierarchy-name">Day <br />Archive</span>
+								<span class="hierarchy-name">日別<br />アーカイブ</span>
 							</a>
 						</li>
 						
@@ -388,7 +388,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
-								<span class="hierarchy-name">Custom Template</span>
+								<span class="hierarchy-name">カスタム<br />テンプレート</span>
 							</a>
 						</li>
 						
@@ -397,7 +397,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
-								<span class="hierarchy-name">Default Template</span>
+								<span class="hierarchy-name">標準<br />テンプレート</span>
 							</a>
 						</li>
 						
@@ -667,7 +667,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
-								<span class="hierarchy-name">Paged:true paged.php</span>
+								<span class="hierarchy-name">2ページ以降:true paged.php</span>
 							</a>
 						</li>
 						
@@ -676,7 +676,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
-								<span class="hierarchy-name">Paged:false</span>
+								<span class="hierarchy-name">2ページ以降:false</span>
 							</a>
 						</li>
 
@@ -715,6 +715,10 @@
 				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://wphierarchy.com" data-text="the WordPress template hierarchy, a mini resource by @marktimemedia and @ramiabraham" data-count="none" data-dnt="true">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 				
+                <hr />
+                Japanese edition by <a href="http://wpdocs.sourceforge.jp/%E5%88%A9%E7%94%A8%E8%80%85:Akira_Tachibana">Akira Tachibana</a>
+                <br />
+                <a href="https://github.com/atachibana/wphierarchy"><span class="icon-github"></span> Fork</a>
 				</div> 
 				
 				
