@@ -11,9 +11,17 @@ WordPress template hierarchy mini resource
 - Genericons.com ( icons, http://genericons.com )
 - tnorthcutt ( Codex URL patch )
 
-####To-do:
+##Japanese edition
 
-- [x] ~~Add links to the Codex for each item~~
-- [ ] Add example loops and/or semantic data
-- [x] ~~Add color-coded legend below header~~
-- [ ] Add WP load interactive site
+- Akira Tachibana
+
+###GitHub
+
+> [https://github.com/atachibana/wphierarchy](https://github.com/atachibana/wphierarchy)
+
+###ToDo:
+- [ ] Create & Translate link target pages in Japanese Codex
+
+###History
+####Version 1.0 (21/Feb/2015)
+- First Release
