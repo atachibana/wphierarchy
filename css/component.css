@@ -1,6 +1,6 @@
-/* Yep, it's all vanilla CSS. A nightmare of absolute positioning. But it's all so familiar to me, you know? But please consider this comment area as a Public Service Announcement against doing so. Use SCSS or LESS. Do yourself a favor. */
+/* Yep, it's all vanilla CSS. A nightmare of absolute positioning. But it's all so familiar to me, you know? But please consider this comment area as a Public Service Announcement against doing so. Use SCSS. Do yourself a favor. */
 
-.icon-archive, .icon-author, .icon-page, .icon-home, .icon-blog, .icon-comments, .icon-404, .icon-search, .icon-category, .icon-date, .icon-month, .icon-day, .icon-tag, .icon-attachment, .icon-post, .icon-star, .icon-wordpress, .icon-github, .icon-alert {
+.icon-archive, .icon-author, .icon-page, .icon-home, .icon-blog, .icon-comments, .icon-404, .icon-search, .icon-category, .icon-date, .icon-month, .icon-day, .icon-tag, .icon-attachment, .icon-post, .icon-star, .icon-wordpress, .icon-github {
 	font-family: 'Genericons';
 	speak: none;
 	font-style: normal;
@@ -78,36 +78,12 @@ content: '\f100';
 	content: '\f408';
 }
 
-.icon-alert:before {
-font-family: 'Genericons';
-content: '\f414';
-display: inline-block;
-float: left;
-}
-
-.icon-alert {
-	text-align: right;
-	display: block;
-	font-family: 'Times', serif;
-}
-
 .icon-wordpress:before {
-	content: '\f205';	
+	content: '\f205';
 }
 
 .icon-github:before {
 	content: '\f200';
-}
-
-.creds p {border: 2px dotted #CCC;
-padding: 4px;
-width: 120px;
-float: right;
-border-radius: 4px;
-}
-
-.creds a:hover {color: #464646;
-	font-style: oblique;
 }
 
 a, li {
@@ -139,7 +115,6 @@ a, li {
 }
 
 .nav i{
-	/* Make the font smoother for Chrome */
 	-webkit-transform: translate3d(0, 0, 0);
 	-moz-transform: translate3d(0, 0, 0);
 	-o-transform: translate3d(0, 0, 0);
@@ -147,13 +122,9 @@ a, li {
 	transform: translate3d(0, 0, 0);
 }
 
-/* Remove the blue Webkit background when element is tapped */
-
 a, button {
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
-
-/* Hover effect for the whole navigation to make the hovered item stand out */
 
 .no-touch .nav ul:hover a {
 	color: rgba(249, 249, 249, .5);
@@ -162,8 +133,6 @@ a, button {
 .no-touch .nav ul:hover a:hover {
 	color: rgba(249, 249, 249, 0.99);
 }
-
-/* Adding some background color to the different menu items */
 
 .nav li.wp-grey {background: #464646;}
 
@@ -205,7 +174,6 @@ a, button {
 	margin-left: -21px;
 	margin-top:10px;
 	margin-right:-28px;
-	
 }
 
 /* yellow color for args */
@@ -347,6 +315,10 @@ a, button {
 
 /*col9 styles*/
 
+.col9 .singular {
+	margin-top: 352px;
+	height: 298px;
+}
 
 /*col10 styles*/
 
@@ -354,25 +326,20 @@ a, button {
 	width: 64px;
 }
 
-/*add some space above some elements to allow for the vertical line above 'Page Shown On Front' */
 
-.col1 ul li:nth-child(3), .col2 ul li:nth-child(3), .col3 ul li:nth-child(11), .col8 ul li:nth-child(4) {margin-top: 40px;}
-
-
-/*end column styles*/
-
-
-
+.col1 ul li:nth-child(3),
+.col2 ul li:nth-child(3), .col3 ul li:nth-child(11), .col8 ul li:nth-child(4)
+{
+	margin-top: 40px;
+}
 
 	.nav a {
 		display: block;
 		width: auto;
 	}
 
+	/* icons */
 
-
-	/* Placing the icon */
-	
 	.icon {
 		padding-top: .1em;
 	}
@@ -386,7 +353,6 @@ a, button {
 		transition: margin .5s;
 	}
 
-	/* Animating the height of the element*/
 	.nav a {
 		height: 9em;
 	}
@@ -395,9 +361,8 @@ a, button {
 	.nav a:active ,
 	.nav a:focus {
 		height: 10em;
-	}	
+	}
 
-	/* Making the text follow the height animation */
 	.no-touch .nav a:hover .icon + span {
 		-webkit-transition: margin .5s;
 		-moz-transition: margin .5s;
@@ -406,7 +371,6 @@ a, button {
 		transition: margin .5s;
 	}
 
-	/* Positioning the icons and preparing for the animation*/
 	.nav i {
 		position: relative;
 		display: inline-block;
@@ -426,12 +390,11 @@ a, button {
 		-o-transition: box-shadow .6s ease-in-out;
 		-ms-transition: box-shadow .6s ease-in-out;
 		transition: box-shadow .6s ease-in-out;
-	}	
-	
-	/* Animate the box-shadow to create the effect */
+	}
+
 	.no-touch .nav a:hover i,
 	.no-touch .nav a:active i,
-	.no-touch .nav a:focus i {		
+	.no-touch .nav a:focus i {
 		box-shadow: 0 0 0 0 rgba(255,255,255,0.2);
 		-webkit-transition: box-shadow .4s ease-in-out;
 		-moz-transition: box-shadow .4s ease-in-out;
@@ -439,7 +402,29 @@ a, button {
 		-ms-transition: box-shadow .4s ease-in-out;
 		transition: box-shadow .4s ease-in-out;
 	}
-		
-.creds {text-align: center;
-	margin-top:32px;
+
+.version-note,
+.date {
+	font-style: italic;
+}
+
+.creds {
+	margin-top: 32px 0;
+}
+
+.creds p {
+	padding: 4px;
+	width: 120px;
+	float: right;
+	border-radius: 4px;
+}
+
+.update {
+	padding: 4px;
+	border-radius: 4px;
+	background: #ededed;
+	float: right;
+	color: grey;
+	width: 128px;
+	margin: 16px 0;
 }
