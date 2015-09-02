@@ -28,5 +28,6 @@ WordPress template hierarchy mini resource Japanese edition
 ###History
 ####Version 1.1 (2/Sep/2015)
 - Add singular.php for Version 4.3+
+
 ####Version 1.0 (21/Feb/2015)
 - First Release
