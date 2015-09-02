@@ -351,7 +351,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-date"></i>
 								</span>
-								<span class="hierarchy-name">年別<br />アーカイブ</span>
+								<span class="hierarchy-name"><small>年別<br />アーカイブ</small></span>
 							</a>
 						</li>
 
@@ -360,7 +360,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-month"></i>
 								</span>
-								<span class="hierarchy-name">月別<br />アーカイブ</span>
+								<span class="hierarchy-name"><small>月別<br />アーカイブ</small></span>
 							</a>
 						</li>
 
@@ -369,7 +369,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-day"></i>
 								</span>
-								<span class="hierarchy-name">日別<br />アーカイブ</span>
+								<span class="hierarchy-name"><small>日別<br />アーカイブ</small></span>
 							</a>
 						</li>
 
@@ -396,7 +396,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
-								<span class="hierarchy-name">カスタム<br />テンプレート</span>
+								<span class="hierarchy-name"><small>カスタム<br />テンプレート</small></span>
 							</a>
 						</li>
 
@@ -405,7 +405,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
-								<span class="hierarchy-name">標準<br />テンプレート</span>
+								<span class="hierarchy-name"><small>標準<br />テンプレート</small></span>
 							</a>
 						</li>
 
@@ -721,10 +721,12 @@ include_once "rss.php";
 				<div class="creds">
 				<h2><?php echo _('A Quaint and Helpful Thing'); ?></h2>
 				<hr/>
-				<?php echo _( 'Code by' ); ?> <a href="http://twitter.com/ramiabraham">Rami Abraham</a>,
-				<?php echo _( 'Design by' ); ?> <a href="http://twitter.com/marktimemedia">Michelle Schulp</a>.
-				<?php echo _('Japanese translation by'); ?> <a href="https://github.com/atachibana">Akira Tachibana</a>
-				<?php echo _( 'Icons are the lovely' ); ?> <a href="http://genericons.com">Genericons</a>.
+				<ul>
+				<li><?php echo _( 'Code by' ); ?> <a href="http://twitter.com/ramiabraham">Rami Abraham</a></li>
+				<li><?php echo _( 'Design by' ); ?> <a href="http://twitter.com/marktimemedia">Michelle Schulp</a></li>
+				<li><a href="http://unofficialtokyo.com/wordpress-template-hierarchy">Japanese translation</a> by <a href="https://github.com/atachibana">Akira Tachibana</a></li>
+				<li><?php echo _( 'Icons are the lovely' ); ?> <a href="http://genericons.com">Genericons</a></li>
+				</ul>
 
 				<div class="update">
 					<h4><?php echo _( 'Latest Update' ); ?>:</h4>
